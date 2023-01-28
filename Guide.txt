@@ -1,0 +1,11 @@
+1) copy babel webpack starter in your project folder
+2) npm install (to install module given in package.json)
+3) npm run build (build application via webpack i,e build/app-bundle.js)
+4) npm start (open in different terminal because it has to be open)
+---check template and console is working properly----
+Now from here start your project
+5) create/copy api/db.json for real time database update
+6) check if json-server installed in node_module if not then npm install json-server
+7) npm run json:server (open in diff terminal becoz it will run on localhost:3000)
+----try to edit json in db.json and check on localhost:3000/posts it will change there also
+8) update index.html & assets/css/style.css & src/* completely because earlier is only for test 
